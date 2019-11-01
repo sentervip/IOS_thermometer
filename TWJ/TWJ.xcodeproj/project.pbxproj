@@ -1,0 +1,970 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D7110AF40BE930AB56F08ED /* libPods-TWJ.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C582DD257A261E3BA2009E4 /* libPods-TWJ.a */; };
+		7404A4E22317A0C400C3AAFC /* TWJTemperatureModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7404A4E12317A0C400C3AAFC /* TWJTemperatureModel.m */; };
+		7404A4F22317D91900C3AAFC /* NSString+add.m in Sources */ = {isa = PBXBuildFile; fileRef = 7404A4F12317D91900C3AAFC /* NSString+add.m */; };
+		740D3CA222DD709100E0CC71 /* TWJDrawChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 740D3CA122DD709100E0CC71 /* TWJDrawChartView.m */; };
+		740D3CA722DD7E1D00E0CC71 /* TWJSettingHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 740D3CA622DD7E1D00E0CC71 /* TWJSettingHeaderView.m */; };
+		740D3CAA22DD9F9F00E0CC71 /* TWJSettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 740D3CA922DD9F9F00E0CC71 /* TWJSettingTableViewCell.m */; };
+		740D3CAD22DD9FD700E0CC71 /* TWJTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 740D3CAB22DD9FD700E0CC71 /* TWJTableViewCell.m */; };
+		740D3CBE22DDA97100E0CC71 /* TWJTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 740D3CBD22DDA97100E0CC71 /* TWJTool.m */; };
+		740D3CC122DDB2C300E0CC71 /* TWJSelectBabyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740D3CC022DDB2C300E0CC71 /* TWJSelectBabyViewController.m */; };
+		740D3CC422DDB3E400E0CC71 /* TWJSelectBabyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 740D3CC322DDB3E400E0CC71 /* TWJSelectBabyTableViewCell.m */; };
+		740D3CCA22DDB82B00E0CC71 /* TWJAddBabyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740D3CC922DDB82B00E0CC71 /* TWJAddBabyViewController.m */; };
+		740D3CCD22DDB97F00E0CC71 /* TWJAddbabyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 740D3CCC22DDB97F00E0CC71 /* TWJAddbabyTableViewCell.m */; };
+		740D3CD022DDBA7C00E0CC71 /* TWJAddHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 740D3CCF22DDBA7C00E0CC71 /* TWJAddHeaderView.m */; };
+		740D3CD622DDCEC900E0CC71 /* TWJTemperatureRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740D3CD522DDCEC900E0CC71 /* TWJTemperatureRecordViewController.m */; };
+		740D3CD922DDD56E00E0CC71 /* TWJTemperatureRecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 740D3CD822DDD56E00E0CC71 /* TWJTemperatureRecordTableViewCell.m */; };
+		740D3CDE22DDDD3000E0CC71 /* TWJNewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 740D3CDD22DDDD3000E0CC71 /* TWJNewsTableViewCell.m */; };
+		74196BEB22D42D3A00D17161 /* TWJConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74196BEA22D42D3A00D17161 /* TWJConnectViewController.m */; };
+		74196BF022D4366700D17161 /* TWJBlueToothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74196BEF22D4366700D17161 /* TWJBlueToothManager.m */; };
+		74240B6B22D3362200B899F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74240B6A22D3362200B899F1 /* AppDelegate.m */; };
+		74240B7322D3362400B899F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74240B7222D3362400B899F1 /* Assets.xcassets */; };
+		74240B7922D3362400B899F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74240B7822D3362400B899F1 /* main.m */; };
+		74240B9A22D34D5900B899F1 /* TWJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74240B9622D34D5900B899F1 /* TWJBaseViewController.m */; };
+		74240B9B22D34D5900B899F1 /* TWJHideTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74240B9722D34D5900B899F1 /* TWJHideTabBarViewController.m */; };
+		74240BA122D34E0200B899F1 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 74240B9F22D34E0200B899F1 /* UIButton+Extension.m */; };
+		74240BA722D34F5F00B899F1 /* TWJHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74240BA622D34F5F00B899F1 /* TWJHomeViewController.m */; };
+		74240BAA22D34F8000B899F1 /* TWJHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74240BA922D34F8000B899F1 /* TWJHistoryViewController.m */; };
+		74240BAD22D34F9000B899F1 /* TWJNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74240BAC22D34F9000B899F1 /* TWJNewsViewController.m */; };
+		74240BB022D34F9D00B899F1 /* TWJSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74240BAF22D34F9D00B899F1 /* TWJSettingViewController.m */; };
+		74240BB622D34FEF00B899F1 /* TWJMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74240BB522D34FEF00B899F1 /* TWJMainViewController.m */; };
+		74240BB922D3507600B899F1 /* TWJNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74240BB822D3507600B899F1 /* TWJNavigationController.m */; };
+		74240BBC22D350FE00B899F1 /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 74240BBB22D350FE00B899F1 /* UIViewController+Extension.m */; };
+		74240BBF22D3514600B899F1 /* UINavigationBar+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 74240BBE22D3514600B899F1 /* UINavigationBar+Extension.m */; };
+		743AF4502327957800243895 /* TWJhttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 743AF44F2327957800243895 /* TWJhttpClient.m */; };
+		743AF453232797F800243895 /* TWJhttpClient+News.m in Sources */ = {isa = PBXBuildFile; fileRef = 743AF452232797F800243895 /* TWJhttpClient+News.m */; };
+		743AF45723279FD000243895 /* TWJNewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 743AF45623279FD000243895 /* TWJNewsModel.m */; };
+		743AF45F2327A13600243895 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 743AF45C2327A13600243895 /* NSObject+YYModel.m */; };
+		743AF4602327A13600243895 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 743AF45D2327A13600243895 /* YYClassInfo.m */; };
+		743AF4632327A74A00243895 /* TWJNewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 743AF4622327A74A00243895 /* TWJNewsDetailViewController.m */; };
+		743F132422DC207B00F9C184 /* TWJHomeBrokenLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 743F132322DC207B00F9C184 /* TWJHomeBrokenLineView.m */; };
+		743F133722DC2E2300F9C184 /* TWJView.m in Sources */ = {isa = PBXBuildFile; fileRef = 743F133522DC2E2300F9C184 /* TWJView.m */; };
+		744B281B22E94A1A0023FFB5 /* TWJNearHospitalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 744B281A22E94A1A0023FFB5 /* TWJNearHospitalTableViewCell.m */; };
+		744B281F22E9506F0023FFB5 /* TWJNearHospitalInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 744B281E22E9506F0023FFB5 /* TWJNearHospitalInfoModel.m */; };
+		744B284922E999580023FFB5 /* TWJTemperatureSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 744B284822E999580023FFB5 /* TWJTemperatureSetViewController.m */; };
+		744B284C22E999970023FFB5 /* TWJTemperatureSetTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 744B284B22E999970023FFB5 /* TWJTemperatureSetTableViewCell.m */; };
+		744B284F22E9AF7A0023FFB5 /* ZZPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 744B284D22E9AF7A0023FFB5 /* ZZPickView.m */; };
+		745E702F2302ABB400EAEDE6 /* TWJDataBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 745E702D2302ABB400EAEDE6 /* TWJDataBaseManager.m */; };
+		745E70322302AC1600EAEDE6 /* TWJBabyInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 745E70312302AC1600EAEDE6 /* TWJBabyInfoModel.m */; };
+		745E70352302BCB900EAEDE6 /* TWJTimePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 745E70332302BCB900EAEDE6 /* TWJTimePickerView.m */; };
+		7461AA452334742F00C6C20D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7461AA442334742F00C6C20D /* MediaPlayer.framework */; };
+		7461AA562334AF9900C6C20D /* temWaringVoice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7461AA552334AF9900C6C20D /* temWaringVoice.mp3 */; };
+		7472080E22E7FD1400F8BCC4 /* TWJHardwareInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7472080D22E7FD1400F8BCC4 /* TWJHardwareInfoViewController.m */; };
+		7472081122E806E100F8BCC4 /* TWJHardwareInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7472081022E806E100F8BCC4 /* TWJHardwareInfoTableViewCell.m */; };
+		7472081422E841B700F8BCC4 /* TWJUnitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7472081322E841B700F8BCC4 /* TWJUnitViewController.m */; };
+		7472081722E8439100F8BCC4 /* TWJUnitTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7472081622E8439100F8BCC4 /* TWJUnitTableViewCell.m */; };
+		7472081A22E845B100F8BCC4 /* TWJNearHospitalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7472081922E845B100F8BCC4 /* TWJNearHospitalViewController.m */; };
+		748984EB22FD49B200DD9531 /* UIImage+add.m in Sources */ = {isa = PBXBuildFile; fileRef = 748984EA22FD49B200DD9531 /* UIImage+add.m */; };
+		74FFC87222E5923E00BE0FE1 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FFC87122E5923E00BE0FE1 /* UIColor+Hex.m */; };
+		74FFC87522E5A61500BE0FE1 /* TWJHomeBrokenTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FFC87422E5A61500BE0FE1 /* TWJHomeBrokenTableViewCell.m */; };
+		74FFC87A22E5C20700BE0FE1 /* TWJHistoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FFC87922E5C20700BE0FE1 /* TWJHistoryTableViewCell.m */; };
+		74FFC87D22E5C5D600BE0FE1 /* TWJAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FFC87C22E5C5D600BE0FE1 /* TWJAboutViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1C582DD257A261E3BA2009E4 /* libPods-TWJ.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TWJ.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7EC8D43609E0B88F6095E2 /* Pods-TWJ.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWJ.release.xcconfig"; path = "Pods/Target Support Files/Pods-TWJ/Pods-TWJ.release.xcconfig"; sourceTree = "<group>"; };
+		7404A4E02317A0C400C3AAFC /* TWJTemperatureModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJTemperatureModel.h; sourceTree = "<group>"; };
+		7404A4E12317A0C400C3AAFC /* TWJTemperatureModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJTemperatureModel.m; sourceTree = "<group>"; };
+		7404A4F02317D91900C3AAFC /* NSString+add.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+add.h"; sourceTree = "<group>"; };
+		7404A4F12317D91900C3AAFC /* NSString+add.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+add.m"; sourceTree = "<group>"; };
+		740D3CA022DD709100E0CC71 /* TWJDrawChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWJDrawChartView.h; sourceTree = "<group>"; };
+		740D3CA122DD709100E0CC71 /* TWJDrawChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWJDrawChartView.m; sourceTree = "<group>"; };
+		740D3CA522DD7E1D00E0CC71 /* TWJSettingHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJSettingHeaderView.h; sourceTree = "<group>"; };
+		740D3CA622DD7E1D00E0CC71 /* TWJSettingHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJSettingHeaderView.m; sourceTree = "<group>"; };
+		740D3CA822DD9F9F00E0CC71 /* TWJSettingTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJSettingTableViewCell.h; sourceTree = "<group>"; };
+		740D3CA922DD9F9F00E0CC71 /* TWJSettingTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJSettingTableViewCell.m; sourceTree = "<group>"; };
+		740D3CAB22DD9FD700E0CC71 /* TWJTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWJTableViewCell.m; sourceTree = "<group>"; };
+		740D3CAC22DD9FD700E0CC71 /* TWJTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWJTableViewCell.h; sourceTree = "<group>"; };
+		740D3CBC22DDA97100E0CC71 /* TWJTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJTool.h; sourceTree = "<group>"; };
+		740D3CBD22DDA97100E0CC71 /* TWJTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJTool.m; sourceTree = "<group>"; };
+		740D3CBF22DDB2C300E0CC71 /* TWJSelectBabyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJSelectBabyViewController.h; sourceTree = "<group>"; };
+		740D3CC022DDB2C300E0CC71 /* TWJSelectBabyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJSelectBabyViewController.m; sourceTree = "<group>"; };
+		740D3CC222DDB3E400E0CC71 /* TWJSelectBabyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJSelectBabyTableViewCell.h; sourceTree = "<group>"; };
+		740D3CC322DDB3E400E0CC71 /* TWJSelectBabyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJSelectBabyTableViewCell.m; sourceTree = "<group>"; };
+		740D3CC822DDB82B00E0CC71 /* TWJAddBabyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJAddBabyViewController.h; sourceTree = "<group>"; };
+		740D3CC922DDB82B00E0CC71 /* TWJAddBabyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJAddBabyViewController.m; sourceTree = "<group>"; };
+		740D3CCB22DDB97F00E0CC71 /* TWJAddbabyTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJAddbabyTableViewCell.h; sourceTree = "<group>"; };
+		740D3CCC22DDB97F00E0CC71 /* TWJAddbabyTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJAddbabyTableViewCell.m; sourceTree = "<group>"; };
+		740D3CCE22DDBA7C00E0CC71 /* TWJAddHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJAddHeaderView.h; sourceTree = "<group>"; };
+		740D3CCF22DDBA7C00E0CC71 /* TWJAddHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJAddHeaderView.m; sourceTree = "<group>"; };
+		740D3CD422DDCEC900E0CC71 /* TWJTemperatureRecordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJTemperatureRecordViewController.h; sourceTree = "<group>"; };
+		740D3CD522DDCEC900E0CC71 /* TWJTemperatureRecordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJTemperatureRecordViewController.m; sourceTree = "<group>"; };
+		740D3CD722DDD56E00E0CC71 /* TWJTemperatureRecordTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJTemperatureRecordTableViewCell.h; sourceTree = "<group>"; };
+		740D3CD822DDD56E00E0CC71 /* TWJTemperatureRecordTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJTemperatureRecordTableViewCell.m; sourceTree = "<group>"; };
+		740D3CDC22DDDD3000E0CC71 /* TWJNewsTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJNewsTableViewCell.h; sourceTree = "<group>"; };
+		740D3CDD22DDDD3000E0CC71 /* TWJNewsTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJNewsTableViewCell.m; sourceTree = "<group>"; };
+		74196BE922D42D3A00D17161 /* TWJConnectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJConnectViewController.h; sourceTree = "<group>"; };
+		74196BEA22D42D3A00D17161 /* TWJConnectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJConnectViewController.m; sourceTree = "<group>"; };
+		74196BEE22D4366600D17161 /* TWJBlueToothManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJBlueToothManager.h; sourceTree = "<group>"; };
+		74196BEF22D4366700D17161 /* TWJBlueToothManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJBlueToothManager.m; sourceTree = "<group>"; };
+		74196BF122D4988000D17161 /* TWJCommenDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJCommenDefine.h; sourceTree = "<group>"; };
+		74240B6622D3362200B899F1 /* TWJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74240B6922D3362200B899F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		74240B6A22D3362200B899F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		74240B7222D3362400B899F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74240B7722D3362400B899F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74240B7822D3362400B899F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74240B9622D34D5900B899F1 /* TWJBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWJBaseViewController.m; sourceTree = "<group>"; };
+		74240B9722D34D5900B899F1 /* TWJHideTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWJHideTabBarViewController.m; sourceTree = "<group>"; };
+		74240B9822D34D5900B899F1 /* TWJHideTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWJHideTabBarViewController.h; sourceTree = "<group>"; };
+		74240B9922D34D5900B899F1 /* TWJBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWJBaseViewController.h; sourceTree = "<group>"; };
+		74240B9F22D34E0200B899F1 /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		74240BA022D34E0200B899F1 /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		74240BA522D34F5F00B899F1 /* TWJHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJHomeViewController.h; sourceTree = "<group>"; };
+		74240BA622D34F5F00B899F1 /* TWJHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJHomeViewController.m; sourceTree = "<group>"; };
+		74240BA822D34F8000B899F1 /* TWJHistoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJHistoryViewController.h; sourceTree = "<group>"; };
+		74240BA922D34F8000B899F1 /* TWJHistoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJHistoryViewController.m; sourceTree = "<group>"; };
+		74240BAB22D34F9000B899F1 /* TWJNewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJNewsViewController.h; sourceTree = "<group>"; };
+		74240BAC22D34F9000B899F1 /* TWJNewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJNewsViewController.m; sourceTree = "<group>"; };
+		74240BAE22D34F9D00B899F1 /* TWJSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJSettingViewController.h; sourceTree = "<group>"; };
+		74240BAF22D34F9D00B899F1 /* TWJSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJSettingViewController.m; sourceTree = "<group>"; };
+		74240BB422D34FEF00B899F1 /* TWJMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJMainViewController.h; sourceTree = "<group>"; };
+		74240BB522D34FEF00B899F1 /* TWJMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJMainViewController.m; sourceTree = "<group>"; };
+		74240BB722D3507600B899F1 /* TWJNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWJNavigationController.h; sourceTree = "<group>"; };
+		74240BB822D3507600B899F1 /* TWJNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWJNavigationController.m; sourceTree = "<group>"; };
+		74240BBA22D350FE00B899F1 /* UIViewController+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extension.h"; sourceTree = "<group>"; };
+		74240BBB22D350FE00B899F1 /* UIViewController+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extension.m"; sourceTree = "<group>"; };
+		74240BBD22D3514600B899F1 /* UINavigationBar+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Extension.h"; sourceTree = "<group>"; };
+		74240BBE22D3514600B899F1 /* UINavigationBar+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+Extension.m"; sourceTree = "<group>"; };
+		74240BC022D3517F00B899F1 /* TWJPch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJPch.pch; sourceTree = "<group>"; };
+		743AF44E2327957800243895 /* TWJhttpClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJhttpClient.h; sourceTree = "<group>"; };
+		743AF44F2327957800243895 /* TWJhttpClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJhttpClient.m; sourceTree = "<group>"; };
+		743AF451232797F800243895 /* TWJhttpClient+News.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TWJhttpClient+News.h"; sourceTree = "<group>"; };
+		743AF452232797F800243895 /* TWJhttpClient+News.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TWJhttpClient+News.m"; sourceTree = "<group>"; };
+		743AF45523279FD000243895 /* TWJNewsModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJNewsModel.h; sourceTree = "<group>"; };
+		743AF45623279FD000243895 /* TWJNewsModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJNewsModel.m; sourceTree = "<group>"; };
+		743AF45A2327A13600243895 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		743AF45B2327A13600243895 /* YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYModel.h; sourceTree = "<group>"; };
+		743AF45C2327A13600243895 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		743AF45D2327A13600243895 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		743AF45E2327A13600243895 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		743AF4612327A74A00243895 /* TWJNewsDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJNewsDetailViewController.h; sourceTree = "<group>"; };
+		743AF4622327A74A00243895 /* TWJNewsDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJNewsDetailViewController.m; sourceTree = "<group>"; };
+		743F132222DC207B00F9C184 /* TWJHomeBrokenLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJHomeBrokenLineView.h; sourceTree = "<group>"; };
+		743F132322DC207B00F9C184 /* TWJHomeBrokenLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJHomeBrokenLineView.m; sourceTree = "<group>"; };
+		743F133522DC2E2300F9C184 /* TWJView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWJView.m; sourceTree = "<group>"; };
+		743F133622DC2E2300F9C184 /* TWJView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWJView.h; sourceTree = "<group>"; };
+		744B281922E94A1A0023FFB5 /* TWJNearHospitalTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJNearHospitalTableViewCell.h; sourceTree = "<group>"; };
+		744B281A22E94A1A0023FFB5 /* TWJNearHospitalTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJNearHospitalTableViewCell.m; sourceTree = "<group>"; };
+		744B281D22E9506F0023FFB5 /* TWJNearHospitalInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJNearHospitalInfoModel.h; sourceTree = "<group>"; };
+		744B281E22E9506F0023FFB5 /* TWJNearHospitalInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJNearHospitalInfoModel.m; sourceTree = "<group>"; };
+		744B284722E999580023FFB5 /* TWJTemperatureSetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJTemperatureSetViewController.h; sourceTree = "<group>"; };
+		744B284822E999580023FFB5 /* TWJTemperatureSetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJTemperatureSetViewController.m; sourceTree = "<group>"; };
+		744B284A22E999970023FFB5 /* TWJTemperatureSetTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJTemperatureSetTableViewCell.h; sourceTree = "<group>"; };
+		744B284B22E999970023FFB5 /* TWJTemperatureSetTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJTemperatureSetTableViewCell.m; sourceTree = "<group>"; };
+		744B284D22E9AF7A0023FFB5 /* ZZPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZPickView.m; sourceTree = "<group>"; };
+		744B284E22E9AF7A0023FFB5 /* ZZPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZPickView.h; sourceTree = "<group>"; };
+		745B6B8D2322676800BE8F29 /* TWJNotificationDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJNotificationDefine.h; sourceTree = "<group>"; };
+		745E702D2302ABB400EAEDE6 /* TWJDataBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWJDataBaseManager.m; sourceTree = "<group>"; };
+		745E702E2302ABB400EAEDE6 /* TWJDataBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWJDataBaseManager.h; sourceTree = "<group>"; };
+		745E70302302AC1600EAEDE6 /* TWJBabyInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJBabyInfoModel.h; sourceTree = "<group>"; };
+		745E70312302AC1600EAEDE6 /* TWJBabyInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJBabyInfoModel.m; sourceTree = "<group>"; };
+		745E70332302BCB900EAEDE6 /* TWJTimePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWJTimePickerView.m; sourceTree = "<group>"; };
+		745E70342302BCB900EAEDE6 /* TWJTimePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWJTimePickerView.h; sourceTree = "<group>"; };
+		7461AA442334742F00C6C20D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		7461AA552334AF9900C6C20D /* temWaringVoice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = temWaringVoice.mp3; sourceTree = "<group>"; };
+		7472080C22E7FD1400F8BCC4 /* TWJHardwareInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJHardwareInfoViewController.h; sourceTree = "<group>"; };
+		7472080D22E7FD1400F8BCC4 /* TWJHardwareInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJHardwareInfoViewController.m; sourceTree = "<group>"; };
+		7472080F22E806E100F8BCC4 /* TWJHardwareInfoTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJHardwareInfoTableViewCell.h; sourceTree = "<group>"; };
+		7472081022E806E100F8BCC4 /* TWJHardwareInfoTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJHardwareInfoTableViewCell.m; sourceTree = "<group>"; };
+		7472081222E841B700F8BCC4 /* TWJUnitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJUnitViewController.h; sourceTree = "<group>"; };
+		7472081322E841B700F8BCC4 /* TWJUnitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJUnitViewController.m; sourceTree = "<group>"; };
+		7472081522E8439100F8BCC4 /* TWJUnitTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJUnitTableViewCell.h; sourceTree = "<group>"; };
+		7472081622E8439100F8BCC4 /* TWJUnitTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJUnitTableViewCell.m; sourceTree = "<group>"; };
+		7472081822E845B100F8BCC4 /* TWJNearHospitalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJNearHospitalViewController.h; sourceTree = "<group>"; };
+		7472081922E845B100F8BCC4 /* TWJNearHospitalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJNearHospitalViewController.m; sourceTree = "<group>"; };
+		748984E922FD49B200DD9531 /* UIImage+add.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+add.h"; sourceTree = "<group>"; };
+		748984EA22FD49B200DD9531 /* UIImage+add.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+add.m"; sourceTree = "<group>"; };
+		74FFC87022E5923E00BE0FE1 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		74FFC87122E5923E00BE0FE1 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		74FFC87322E5A61500BE0FE1 /* TWJHomeBrokenTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJHomeBrokenTableViewCell.h; sourceTree = "<group>"; };
+		74FFC87422E5A61500BE0FE1 /* TWJHomeBrokenTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJHomeBrokenTableViewCell.m; sourceTree = "<group>"; };
+		74FFC87822E5C20700BE0FE1 /* TWJHistoryTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJHistoryTableViewCell.h; sourceTree = "<group>"; };
+		74FFC87922E5C20700BE0FE1 /* TWJHistoryTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJHistoryTableViewCell.m; sourceTree = "<group>"; };
+		74FFC87B22E5C5D600BE0FE1 /* TWJAboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWJAboutViewController.h; sourceTree = "<group>"; };
+		74FFC87C22E5C5D600BE0FE1 /* TWJAboutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWJAboutViewController.m; sourceTree = "<group>"; };
+		AFE633F9AC72583404A6AB91 /* Pods-TWJ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWJ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TWJ/Pods-TWJ.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74240B6322D3362200B899F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7461AA452334742F00C6C20D /* MediaPlayer.framework in Frameworks */,
+				5D7110AF40BE930AB56F08ED /* libPods-TWJ.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		740D3CA322DD7DEC00E0CC71 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				74240BAE22D34F9D00B899F1 /* TWJSettingViewController.h */,
+				74240BAF22D34F9D00B899F1 /* TWJSettingViewController.m */,
+				740D3CBF22DDB2C300E0CC71 /* TWJSelectBabyViewController.h */,
+				740D3CC022DDB2C300E0CC71 /* TWJSelectBabyViewController.m */,
+				740D3CC822DDB82B00E0CC71 /* TWJAddBabyViewController.h */,
+				740D3CC922DDB82B00E0CC71 /* TWJAddBabyViewController.m */,
+				74FFC87B22E5C5D600BE0FE1 /* TWJAboutViewController.h */,
+				74FFC87C22E5C5D600BE0FE1 /* TWJAboutViewController.m */,
+				7472080C22E7FD1400F8BCC4 /* TWJHardwareInfoViewController.h */,
+				7472080D22E7FD1400F8BCC4 /* TWJHardwareInfoViewController.m */,
+				7472081222E841B700F8BCC4 /* TWJUnitViewController.h */,
+				7472081322E841B700F8BCC4 /* TWJUnitViewController.m */,
+				7472081822E845B100F8BCC4 /* TWJNearHospitalViewController.h */,
+				7472081922E845B100F8BCC4 /* TWJNearHospitalViewController.m */,
+				744B284722E999580023FFB5 /* TWJTemperatureSetViewController.h */,
+				744B284822E999580023FFB5 /* TWJTemperatureSetViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		740D3CA422DD7DF800E0CC71 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				740D3CA522DD7E1D00E0CC71 /* TWJSettingHeaderView.h */,
+				740D3CA622DD7E1D00E0CC71 /* TWJSettingHeaderView.m */,
+				740D3CA822DD9F9F00E0CC71 /* TWJSettingTableViewCell.h */,
+				740D3CA922DD9F9F00E0CC71 /* TWJSettingTableViewCell.m */,
+				740D3CC222DDB3E400E0CC71 /* TWJSelectBabyTableViewCell.h */,
+				740D3CC322DDB3E400E0CC71 /* TWJSelectBabyTableViewCell.m */,
+				740D3CCB22DDB97F00E0CC71 /* TWJAddbabyTableViewCell.h */,
+				740D3CCC22DDB97F00E0CC71 /* TWJAddbabyTableViewCell.m */,
+				740D3CCE22DDBA7C00E0CC71 /* TWJAddHeaderView.h */,
+				740D3CCF22DDBA7C00E0CC71 /* TWJAddHeaderView.m */,
+				7472080F22E806E100F8BCC4 /* TWJHardwareInfoTableViewCell.h */,
+				7472081022E806E100F8BCC4 /* TWJHardwareInfoTableViewCell.m */,
+				7472081522E8439100F8BCC4 /* TWJUnitTableViewCell.h */,
+				7472081622E8439100F8BCC4 /* TWJUnitTableViewCell.m */,
+				744B281922E94A1A0023FFB5 /* TWJNearHospitalTableViewCell.h */,
+				744B281A22E94A1A0023FFB5 /* TWJNearHospitalTableViewCell.m */,
+				744B284A22E999970023FFB5 /* TWJTemperatureSetTableViewCell.h */,
+				744B284B22E999970023FFB5 /* TWJTemperatureSetTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		740D3CBB22DDA94A00E0CC71 /* TWJTool */ = {
+			isa = PBXGroup;
+			children = (
+				745E702E2302ABB400EAEDE6 /* TWJDataBaseManager.h */,
+				745E702D2302ABB400EAEDE6 /* TWJDataBaseManager.m */,
+				740D3CBC22DDA97100E0CC71 /* TWJTool.h */,
+				740D3CBD22DDA97100E0CC71 /* TWJTool.m */,
+				745E70302302AC1600EAEDE6 /* TWJBabyInfoModel.h */,
+				745E70312302AC1600EAEDE6 /* TWJBabyInfoModel.m */,
+				7404A4E02317A0C400C3AAFC /* TWJTemperatureModel.h */,
+				7404A4E12317A0C400C3AAFC /* TWJTemperatureModel.m */,
+			);
+			path = TWJTool;
+			sourceTree = "<group>";
+		};
+		740D3CDA22DDDC9300E0CC71 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				74240BAB22D34F9000B899F1 /* TWJNewsViewController.h */,
+				74240BAC22D34F9000B899F1 /* TWJNewsViewController.m */,
+				743AF4612327A74A00243895 /* TWJNewsDetailViewController.h */,
+				743AF4622327A74A00243895 /* TWJNewsDetailViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		740D3CDB22DDDC9D00E0CC71 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				740D3CDC22DDDD3000E0CC71 /* TWJNewsTableViewCell.h */,
+				740D3CDD22DDDD3000E0CC71 /* TWJNewsTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		74196BE822D42D0F00D17161 /* Connect */ = {
+			isa = PBXGroup;
+			children = (
+				74196BE922D42D3A00D17161 /* TWJConnectViewController.h */,
+				74196BEA22D42D3A00D17161 /* TWJConnectViewController.m */,
+			);
+			path = Connect;
+			sourceTree = "<group>";
+		};
+		74196BEC22D434DF00D17161 /* Bussness */ = {
+			isa = PBXGroup;
+			children = (
+				743AF4582327A10F00243895 /* Vendor */,
+				743AF44D2327955900243895 /* Http */,
+				740D3CBB22DDA94A00E0CC71 /* TWJTool */,
+				74196BED22D4351200D17161 /* BlueTooth */,
+			);
+			path = Bussness;
+			sourceTree = "<group>";
+		};
+		74196BED22D4351200D17161 /* BlueTooth */ = {
+			isa = PBXGroup;
+			children = (
+				74196BEE22D4366600D17161 /* TWJBlueToothManager.h */,
+				74196BEF22D4366700D17161 /* TWJBlueToothManager.m */,
+			);
+			path = BlueTooth;
+			sourceTree = "<group>";
+		};
+		74240B5D22D3362200B899F1 = {
+			isa = PBXGroup;
+			children = (
+				74240B6822D3362200B899F1 /* TWJ */,
+				74240B6722D3362200B899F1 /* Products */,
+				F0BF5119D3579FAB5699813A /* Pods */,
+				F173E23B5254C5BD4875E740 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74240B6722D3362200B899F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74240B6622D3362200B899F1 /* TWJ.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74240B6822D3362200B899F1 /* TWJ */ = {
+			isa = PBXGroup;
+			children = (
+				74240B8C22D34AF500B899F1 /* Support */,
+				74240B8D22D34B1200B899F1 /* Resource */,
+				74196BEC22D434DF00D17161 /* Bussness */,
+				74240B9C22D34DAC00B899F1 /* Category */,
+				74240B8E22D34B2900B899F1 /* Section */,
+			);
+			path = TWJ;
+			sourceTree = "<group>";
+		};
+		74240B8C22D34AF500B899F1 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				74240B6922D3362200B899F1 /* AppDelegate.h */,
+				74240B6A22D3362200B899F1 /* AppDelegate.m */,
+				74240B7722D3362400B899F1 /* Info.plist */,
+				74240B7822D3362400B899F1 /* main.m */,
+				74240BC022D3517F00B899F1 /* TWJPch.pch */,
+				74196BF122D4988000D17161 /* TWJCommenDefine.h */,
+				745B6B8D2322676800BE8F29 /* TWJNotificationDefine.h */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		74240B8D22D34B1200B899F1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				7461AA552334AF9900C6C20D /* temWaringVoice.mp3 */,
+				74240B7222D3362400B899F1 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		74240B8E22D34B2900B899F1 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				74240B9522D34D3300B899F1 /* Base */,
+				74196BE822D42D0F00D17161 /* Connect */,
+				74240B8F22D34B4E00B899F1 /* Introduction */,
+				74240B9022D34B8F00B899F1 /* Main */,
+				74240B9422D34CEC00B899F1 /* Setting */,
+				74240B9322D34CDA00B899F1 /* News */,
+				74240B9222D34CD100B899F1 /* History */,
+				74240B9122D34CCA00B899F1 /* Home */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		74240B8F22D34B4E00B899F1 /* Introduction */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Introduction;
+			sourceTree = "<group>";
+		};
+		74240B9022D34B8F00B899F1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				74240BB422D34FEF00B899F1 /* TWJMainViewController.h */,
+				74240BB522D34FEF00B899F1 /* TWJMainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		74240B9122D34CCA00B899F1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				743F132122DC1FEC00F9C184 /* View */,
+				74240BA522D34F5F00B899F1 /* TWJHomeViewController.h */,
+				74240BA622D34F5F00B899F1 /* TWJHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		74240B9222D34CD100B899F1 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				74FFC87722E5C1F200BE0FE1 /* View */,
+				74FFC87622E5C1E700BE0FE1 /* Controller */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		74240B9322D34CDA00B899F1 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				743AF45423279FB800243895 /* Model */,
+				740D3CDB22DDDC9D00E0CC71 /* View */,
+				740D3CDA22DDDC9300E0CC71 /* Controller */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		74240B9422D34CEC00B899F1 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				744B281C22E9504B0023FFB5 /* Model */,
+				740D3CA422DD7DF800E0CC71 /* View */,
+				740D3CA322DD7DEC00E0CC71 /* Controller */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		74240B9522D34D3300B899F1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				743F132722DC2D9400F9C184 /* View */,
+				74240BB722D3507600B899F1 /* TWJNavigationController.h */,
+				74240BB822D3507600B899F1 /* TWJNavigationController.m */,
+				74240B9922D34D5900B899F1 /* TWJBaseViewController.h */,
+				74240B9622D34D5900B899F1 /* TWJBaseViewController.m */,
+				74240B9822D34D5900B899F1 /* TWJHideTabBarViewController.h */,
+				74240B9722D34D5900B899F1 /* TWJHideTabBarViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		74240B9C22D34DAC00B899F1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				74240B9E22D34DD300B899F1 /* UI */,
+				74240B9D22D34DCD00B899F1 /* NS */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		74240B9D22D34DCD00B899F1 /* NS */ = {
+			isa = PBXGroup;
+			children = (
+				7404A4F02317D91900C3AAFC /* NSString+add.h */,
+				7404A4F12317D91900C3AAFC /* NSString+add.m */,
+			);
+			path = NS;
+			sourceTree = "<group>";
+		};
+		74240B9E22D34DD300B899F1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				74FFC87022E5923E00BE0FE1 /* UIColor+Hex.h */,
+				74FFC87122E5923E00BE0FE1 /* UIColor+Hex.m */,
+				74240BBD22D3514600B899F1 /* UINavigationBar+Extension.h */,
+				74240BBE22D3514600B899F1 /* UINavigationBar+Extension.m */,
+				74240BBA22D350FE00B899F1 /* UIViewController+Extension.h */,
+				74240BBB22D350FE00B899F1 /* UIViewController+Extension.m */,
+				74240BA022D34E0200B899F1 /* UIButton+Extension.h */,
+				74240B9F22D34E0200B899F1 /* UIButton+Extension.m */,
+				748984E922FD49B200DD9531 /* UIImage+add.h */,
+				748984EA22FD49B200DD9531 /* UIImage+add.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		743AF44D2327955900243895 /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				743AF44E2327957800243895 /* TWJhttpClient.h */,
+				743AF44F2327957800243895 /* TWJhttpClient.m */,
+				743AF451232797F800243895 /* TWJhttpClient+News.h */,
+				743AF452232797F800243895 /* TWJhttpClient+News.m */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		743AF45423279FB800243895 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				743AF45523279FD000243895 /* TWJNewsModel.h */,
+				743AF45623279FD000243895 /* TWJNewsModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		743AF4582327A10F00243895 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				743AF4592327A13600243895 /* YYModel */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		743AF4592327A13600243895 /* YYModel */ = {
+			isa = PBXGroup;
+			children = (
+				743AF45A2327A13600243895 /* YYClassInfo.h */,
+				743AF45B2327A13600243895 /* YYModel.h */,
+				743AF45C2327A13600243895 /* NSObject+YYModel.m */,
+				743AF45D2327A13600243895 /* YYClassInfo.m */,
+				743AF45E2327A13600243895 /* NSObject+YYModel.h */,
+			);
+			path = YYModel;
+			sourceTree = "<group>";
+		};
+		743F132122DC1FEC00F9C184 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				740D3CA022DD709100E0CC71 /* TWJDrawChartView.h */,
+				740D3CA122DD709100E0CC71 /* TWJDrawChartView.m */,
+				743F132222DC207B00F9C184 /* TWJHomeBrokenLineView.h */,
+				743F132322DC207B00F9C184 /* TWJHomeBrokenLineView.m */,
+				74FFC87322E5A61500BE0FE1 /* TWJHomeBrokenTableViewCell.h */,
+				74FFC87422E5A61500BE0FE1 /* TWJHomeBrokenTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		743F132722DC2D9400F9C184 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				745E70342302BCB900EAEDE6 /* TWJTimePickerView.h */,
+				745E70332302BCB900EAEDE6 /* TWJTimePickerView.m */,
+				744B284E22E9AF7A0023FFB5 /* ZZPickView.h */,
+				744B284D22E9AF7A0023FFB5 /* ZZPickView.m */,
+				740D3CAC22DD9FD700E0CC71 /* TWJTableViewCell.h */,
+				740D3CAB22DD9FD700E0CC71 /* TWJTableViewCell.m */,
+				743F133622DC2E2300F9C184 /* TWJView.h */,
+				743F133522DC2E2300F9C184 /* TWJView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		744B281C22E9504B0023FFB5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				744B281D22E9506F0023FFB5 /* TWJNearHospitalInfoModel.h */,
+				744B281E22E9506F0023FFB5 /* TWJNearHospitalInfoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		74FFC87622E5C1E700BE0FE1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				740D3CD422DDCEC900E0CC71 /* TWJTemperatureRecordViewController.h */,
+				740D3CD522DDCEC900E0CC71 /* TWJTemperatureRecordViewController.m */,
+				74240BA822D34F8000B899F1 /* TWJHistoryViewController.h */,
+				74240BA922D34F8000B899F1 /* TWJHistoryViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		74FFC87722E5C1F200BE0FE1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				74FFC87822E5C20700BE0FE1 /* TWJHistoryTableViewCell.h */,
+				74FFC87922E5C20700BE0FE1 /* TWJHistoryTableViewCell.m */,
+				740D3CD722DDD56E00E0CC71 /* TWJTemperatureRecordTableViewCell.h */,
+				740D3CD822DDD56E00E0CC71 /* TWJTemperatureRecordTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F0BF5119D3579FAB5699813A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFE633F9AC72583404A6AB91 /* Pods-TWJ.debug.xcconfig */,
+				3B7EC8D43609E0B88F6095E2 /* Pods-TWJ.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F173E23B5254C5BD4875E740 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7461AA442334742F00C6C20D /* MediaPlayer.framework */,
+				1C582DD257A261E3BA2009E4 /* libPods-TWJ.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74240B6522D3362200B899F1 /* TWJ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74240B7C22D3362400B899F1 /* Build configuration list for PBXNativeTarget "TWJ" */;
+			buildPhases = (
+				59EB7412063455CE0EA9220E /* [CP] Check Pods Manifest.lock */,
+				74240B6222D3362200B899F1 /* Sources */,
+				74240B6322D3362200B899F1 /* Frameworks */,
+				74240B6422D3362200B899F1 /* Resources */,
+				DD4922C1E34ED37F41AD0045 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TWJ;
+			productName = TWJ;
+			productReference = 74240B6622D3362200B899F1 /* TWJ.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74240B5E22D3362200B899F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = zlx;
+				TargetAttributes = {
+					74240B6522D3362200B899F1 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 74240B6122D3362200B899F1 /* Build configuration list for PBXProject "TWJ" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74240B5D22D3362200B899F1;
+			productRefGroup = 74240B6722D3362200B899F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74240B6522D3362200B899F1 /* TWJ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74240B6422D3362200B899F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7461AA562334AF9900C6C20D /* temWaringVoice.mp3 in Resources */,
+				74240B7322D3362400B899F1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59EB7412063455CE0EA9220E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TWJ-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD4922C1E34ED37F41AD0045 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TWJ/Pods-TWJ-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TWJ/Pods-TWJ-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74240B6222D3362200B899F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74240BBC22D350FE00B899F1 /* UIViewController+Extension.m in Sources */,
+				744B284F22E9AF7A0023FFB5 /* ZZPickView.m in Sources */,
+				744B284C22E999970023FFB5 /* TWJTemperatureSetTableViewCell.m in Sources */,
+				745E702F2302ABB400EAEDE6 /* TWJDataBaseManager.m in Sources */,
+				740D3CD922DDD56E00E0CC71 /* TWJTemperatureRecordTableViewCell.m in Sources */,
+				743F133722DC2E2300F9C184 /* TWJView.m in Sources */,
+				743AF45723279FD000243895 /* TWJNewsModel.m in Sources */,
+				740D3CCA22DDB82B00E0CC71 /* TWJAddBabyViewController.m in Sources */,
+				744B284922E999580023FFB5 /* TWJTemperatureSetViewController.m in Sources */,
+				7472080E22E7FD1400F8BCC4 /* TWJHardwareInfoViewController.m in Sources */,
+				74240BB922D3507600B899F1 /* TWJNavigationController.m in Sources */,
+				74240BA122D34E0200B899F1 /* UIButton+Extension.m in Sources */,
+				74196BF022D4366700D17161 /* TWJBlueToothManager.m in Sources */,
+				743F132422DC207B00F9C184 /* TWJHomeBrokenLineView.m in Sources */,
+				743AF4502327957800243895 /* TWJhttpClient.m in Sources */,
+				74196BEB22D42D3A00D17161 /* TWJConnectViewController.m in Sources */,
+				74240BA722D34F5F00B899F1 /* TWJHomeViewController.m in Sources */,
+				740D3CA222DD709100E0CC71 /* TWJDrawChartView.m in Sources */,
+				74FFC87222E5923E00BE0FE1 /* UIColor+Hex.m in Sources */,
+				7404A4F22317D91900C3AAFC /* NSString+add.m in Sources */,
+				74240B7922D3362400B899F1 /* main.m in Sources */,
+				7404A4E22317A0C400C3AAFC /* TWJTemperatureModel.m in Sources */,
+				740D3CAA22DD9F9F00E0CC71 /* TWJSettingTableViewCell.m in Sources */,
+				743AF4602327A13600243895 /* YYClassInfo.m in Sources */,
+				74240BB622D34FEF00B899F1 /* TWJMainViewController.m in Sources */,
+				740D3CDE22DDDD3000E0CC71 /* TWJNewsTableViewCell.m in Sources */,
+				74FFC87A22E5C20700BE0FE1 /* TWJHistoryTableViewCell.m in Sources */,
+				744B281F22E9506F0023FFB5 /* TWJNearHospitalInfoModel.m in Sources */,
+				743AF45F2327A13600243895 /* NSObject+YYModel.m in Sources */,
+				740D3CCD22DDB97F00E0CC71 /* TWJAddbabyTableViewCell.m in Sources */,
+				744B281B22E94A1A0023FFB5 /* TWJNearHospitalTableViewCell.m in Sources */,
+				748984EB22FD49B200DD9531 /* UIImage+add.m in Sources */,
+				740D3CA722DD7E1D00E0CC71 /* TWJSettingHeaderView.m in Sources */,
+				740D3CAD22DD9FD700E0CC71 /* TWJTableViewCell.m in Sources */,
+				74240BAD22D34F9000B899F1 /* TWJNewsViewController.m in Sources */,
+				74240B6B22D3362200B899F1 /* AppDelegate.m in Sources */,
+				74240B9A22D34D5900B899F1 /* TWJBaseViewController.m in Sources */,
+				74240B9B22D34D5900B899F1 /* TWJHideTabBarViewController.m in Sources */,
+				7472081A22E845B100F8BCC4 /* TWJNearHospitalViewController.m in Sources */,
+				74240BBF22D3514600B899F1 /* UINavigationBar+Extension.m in Sources */,
+				745E70322302AC1600EAEDE6 /* TWJBabyInfoModel.m in Sources */,
+				740D3CC122DDB2C300E0CC71 /* TWJSelectBabyViewController.m in Sources */,
+				7472081422E841B700F8BCC4 /* TWJUnitViewController.m in Sources */,
+				74FFC87522E5A61500BE0FE1 /* TWJHomeBrokenTableViewCell.m in Sources */,
+				74240BB022D34F9D00B899F1 /* TWJSettingViewController.m in Sources */,
+				74FFC87D22E5C5D600BE0FE1 /* TWJAboutViewController.m in Sources */,
+				740D3CC422DDB3E400E0CC71 /* TWJSelectBabyTableViewCell.m in Sources */,
+				740D3CD622DDCEC900E0CC71 /* TWJTemperatureRecordViewController.m in Sources */,
+				740D3CD022DDBA7C00E0CC71 /* TWJAddHeaderView.m in Sources */,
+				74240BAA22D34F8000B899F1 /* TWJHistoryViewController.m in Sources */,
+				7472081722E8439100F8BCC4 /* TWJUnitTableViewCell.m in Sources */,
+				740D3CBE22DDA97100E0CC71 /* TWJTool.m in Sources */,
+				743AF4632327A74A00243895 /* TWJNewsDetailViewController.m in Sources */,
+				745E70352302BCB900EAEDE6 /* TWJTimePickerView.m in Sources */,
+				7472081122E806E100F8BCC4 /* TWJHardwareInfoTableViewCell.m in Sources */,
+				743AF453232797F800243895 /* TWJhttpClient+News.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		74240B7A22D3362400B899F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = /Users/ydd/Documents/TWJ/TWJ/Support/TWJPch.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74240B7B22D3362400B899F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = /Users/ydd/Documents/TWJ/TWJ/Support/TWJPch.pch;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74240B7D22D3362400B899F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFE633F9AC72583404A6AB91 /* Pods-TWJ.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LKQ5487KL3;
+				GCC_INPUT_FILETYPE = automatic;
+				INFOPLIST_FILE = TWJ/Support/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiwenji.m.appstore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		74240B7E22D3362400B899F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B7EC8D43609E0B88F6095E2 /* Pods-TWJ.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LKQ5487KL3;
+				GCC_INPUT_FILETYPE = automatic;
+				INFOPLIST_FILE = TWJ/Support/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tiwenji.m.appstore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74240B6122D3362200B899F1 /* Build configuration list for PBXProject "TWJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74240B7A22D3362400B899F1 /* Debug */,
+				74240B7B22D3362400B899F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74240B7C22D3362400B899F1 /* Build configuration list for PBXNativeTarget "TWJ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74240B7D22D3362400B899F1 /* Debug */,
+				74240B7E22D3362400B899F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74240B5E22D3362200B899F1 /* Project object */;
+}
